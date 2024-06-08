@@ -74,7 +74,7 @@
     "config.bomb.inner.tint": "内部范围高亮的颜色",
     "config.bomb.inner.tint.tooltip": "炸弹内部范围高亮的颜色",
     "config.bomb.outer.enable": "启用外部范围高亮",
-    "config.bomb.outer.enable.tooltip": "外部范围是作物被摧毁、地板被破坏以及玩家受到伤害的范围",
+    "config.bomb.outer.enable.tooltip": "外部范围、玩家受到伤害的范围",
     "config.bomb.outer.tint": "外部范围高亮的颜色",
     "config.bomb.outer.tint.tooltip": "炸弹外部范围高亮的颜色",
 
