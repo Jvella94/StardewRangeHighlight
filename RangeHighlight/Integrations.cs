@@ -49,7 +49,7 @@ namespace RangeHighlight {
                 () => theMod.config.ShowJunimoRange,
                 () => theMod.config.ShowJunimoRangeKey,
                 blueprint => {
-                    if (blueprint.Id == "Junimo Hut") {
+                    if (blueprint.Data.BuildingType == "StardewValley.Buildings.JunimoHut") {
                         setRange();
                         return new Tuple<Color, bool[,], int, int>(theMod.config.JunimoRangeTint, theMod.defaultShapes.junimoHut, 1, 1);
                     } else {
